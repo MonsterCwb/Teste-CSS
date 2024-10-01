@@ -1,0 +1,78 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Bayon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#conteudo-tela-principal {
+  display: flex;
+  flex-direction: row;
+}
+
+#conteudo-tela-principal > p {
+  font-size: 92px;
+  text-align: center;
+  line-height: 90%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.texto-vermelho {
+  color: red;
+  display: inline-block;
+}
+
+.linha-vermelha {
+  background-color: red;
+  width: 100%;
+  height: 10px;
+  margin: 3% 0;
+}
+
+.texto-about {
+  text-align: start;
+}
+
+.caixa-about {
+  margin: 0 20%;
+}
+
+.margem-final {
+  margin-bottom: 3%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
